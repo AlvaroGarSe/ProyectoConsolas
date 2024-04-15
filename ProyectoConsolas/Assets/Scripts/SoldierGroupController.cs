@@ -41,26 +41,33 @@ public class SoldierGroupController : MonoBehaviour
         m_AuxNumSoldiers = m_SoldiersList.Count;
         m_FireRateUpgrade = 0;
         m_PowerUpCurrentTimer = m_PowerUpMaxTimer;
+#if UNITY_ANDROID
+        m_MoveLeftButton.gameObject.SetActive(true);
+        m_MoveRightButton.gameObject.SetActive(true);
+#endif
     }
 
     // Update is called once per frame
     void Update()
     {
-//#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE_WIN
+        /*
         if(Input.GetKeyDown(KeyCode.E))
         {
             CreateNewSoldier();
         }
-        if (Input.GetKey(KeyCode.D) && !m_RightLimit)
+        */
+        if (Input.GetAxis("Horizontal") < 0)
         {
-            gameObject.transform.position += Vector3.back * 20 * Time.deltaTime;
+            gameObject.transform.position += Vector3.forward * 15 * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.A) && !m_LeftLimit)
+        if (Input.GetAxis("Horizontal") > 0)
         {
-            gameObject.transform.position += Vector3.forward * 20 * Time.deltaTime;
+            gameObject.transform.position += Vector3.back * 15 * Time.deltaTime;
         }
-//#endif
-        //#if UNITY_ANDROID
+        m_PowerUpImagePC.gameObject.SetActive(m_HasPowerUp);
+#endif
+#if UNITY_ANDROID
         m_PowerUpImageAndroid.gameObject.SetActive(m_HasPowerUp);
 
         if(m_MovingLeft && !m_LeftLimit)
@@ -84,7 +91,7 @@ public class SoldierGroupController : MonoBehaviour
         }
         */
 
-//#endif
+#endif
         
         if (m_DoingPowerUp)
         {
@@ -109,9 +116,6 @@ public class SoldierGroupController : MonoBehaviour
                 PowerUpButtonPreshed();
             }
         }
-
-        m_PowerUpImagePC.gameObject.SetActive(m_HasPowerUp);
-
         if(m_SoldiersList.Count == 0)
         {
             SceneManager.LoadScene("Menu");

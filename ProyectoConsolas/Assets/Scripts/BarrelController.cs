@@ -15,11 +15,13 @@ public class BarrelController : MonoBehaviour
     private UpgradeBarrelScript m_UpgradeBarrelScript;
     private PowerUpBarrelScript m_PowerUpBarrelScript;
     private ExtraSoldierBarrel m_ExtraSoldierBarrelScript;
+    private CanvasController m_CanvasController;
 
     // Start is called before the first frame update
     void Start()
     {
         m_CurrentHealthPoints = m_MaxHealthPoints;
+        m_CanvasController = FindObjectOfType<CanvasController>();
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class BarrelController : MonoBehaviour
 
     private void Dead()
     {
+        m_CanvasController.m_Score += 5;
         Destroy(gameObject);
     }
 
