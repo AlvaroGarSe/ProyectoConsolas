@@ -17,6 +17,7 @@ public class SoldierController : MonoBehaviour
     {
         m_BulletPoolManager = FindObjectOfType<BulletPoolManager>();
         m_SoldierGroupScript = FindObjectOfType<SoldierGroupController>();
+        GetComponent<Rigidbody>().sleepThreshold = 0;
         m_RemainingFireRate = m_FireRate;
         m_NumUpgrades = 0;
     }
