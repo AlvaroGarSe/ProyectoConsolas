@@ -32,6 +32,7 @@ public class SoldierGroupController : MonoBehaviour
     public bool m_RightLimit;
     public bool m_LeftLimit;
 
+    public float velocidad = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -78,18 +79,18 @@ public class SoldierGroupController : MonoBehaviour
         {
             gameObject.transform.position += Vector3.back * 20 * Time.deltaTime;
         }
-        /*
-        Move the soldier following the finger but doesnt work
+        
+        //Move the soldier following the finger but doesnt work
         if(Input.touchCount > 0)
         {
-            toque = Input.GetTouch(0);
+            Touch toque = Input.GetTouch(0);
             if(toque.phase == TouchPhase.Moved) 
             {
-                transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + toque.deltaPosition.x * velocidad * Time.deltaTime);
+                transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - toque.deltaPosition.x * velocidad * Time.deltaTime);
 
             }
         }
-        */
+        
 
 #endif
         
