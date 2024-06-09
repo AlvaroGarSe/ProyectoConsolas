@@ -91,7 +91,7 @@ public class SoldierGroupController : MonoBehaviour
         if(Input.touchCount > 0)
         {
             Touch toque = Input.GetTouch(0);
-            if(toque.phase == TouchPhase.Moved) 
+            if(toque.phase == UnityEngine.TouchPhase.Moved) 
             {
                 transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - toque.deltaPosition.x * velocidad * Time.deltaTime);
 
