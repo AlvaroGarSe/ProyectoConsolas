@@ -1358,7 +1358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31, y: 953}
+  m_AnchoredPosition: {x: -52, y: 253}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &703126370
@@ -2520,6 +2520,7 @@ MonoBehaviour:
   m_MoveLeftButton: {fileID: 727839164}
   m_RightLimit: 0
   m_LeftLimit: 0
+  velocidad: 1
 --- !u!4 &1199678682
 Transform:
   m_ObjectHideFlags: 0
@@ -2830,7 +2831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383, y: 963}
+  m_AnchoredPosition: {x: -404, y: 262.9999}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337896095

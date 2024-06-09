@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.XInput;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -66,6 +68,11 @@ public class SoldierGroupController : MonoBehaviour
         {
             gameObject.transform.position += Vector3.back * 15 * Time.deltaTime;
         }
+        if(Input.GetKeyDown(KeyCode.Joystick1Button0))
+        {
+            PowerUpButtonPreshed();
+        }
+
         m_PowerUpImagePC.gameObject.SetActive(m_HasPowerUp);
 #endif
 #if UNITY_ANDROID

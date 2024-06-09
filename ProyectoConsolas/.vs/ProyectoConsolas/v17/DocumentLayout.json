@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|c:\\users\\algar\\documents\\github\\proyectoconsolas\\proyectoconsolas\\assets\\scripts\\barrelspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barrelspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|c:\\users\\algar\\documents\\github\\proyectoconsolas\\proyectoconsolas\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\assets\\scripts\\soldiergroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiergroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\assets\\scripts\\soldiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|c:\\users\\algar\\documents\\github\\proyectoconsolas\\proyectoconsolas\\assets\\scripts\\endlimitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endlimitscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\assets\\scripts\\bulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{747BAEC9-3C37-99EE-CADE-A717166017A9}|Assembly-CSharp.csproj|C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\assets\\scripts\\barrelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,48 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EndLimitScript.cs",
-              "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\EndLimitScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EndLimitScript.cs",
-              "ToolTip": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\EndLimitScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EndLimitScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "DocumentIndex": 0,
+              "Title": "BarrelSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BarrelSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BarrelSpawner.cs",
+              "ToolTip": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BarrelSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BarrelSpawner.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T17:12:35.613Z",
+              "WhenOpened": "2024-05-31T09:33:40.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BulletPoolManager.cs",
-              "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BulletPoolManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletPoolManager.cs",
-              "ToolTip": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BulletPoolManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BulletPoolManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:13:19.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
               "ToolTip": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\MenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T08:01:54.732Z"
+              "WhenOpened": "2024-04-15T08:01:54.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BulletScript.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
@@ -95,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "BarrelController.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\BarrelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BarrelController.cs",
@@ -107,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CanvasController.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\CanvasController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasController.cs",
@@ -119,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SoldierController.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\SoldierController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoldierController.cs",
@@ -127,21 +112,19 @@
               "RelativeToolTip": "Assets\\Scripts\\SoldierController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAwwDoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T07:13:13.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T07:13:13.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SoldierGroupController.cs",
               "DocumentMoniker": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\SoldierGroupController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoldierGroupController.cs",
               "ToolTip": "C:\\Users\\algar\\Documents\\GitHub\\ProyectoConsolas\\ProyectoConsolas\\Assets\\Scripts\\SoldierGroupController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SoldierGroupController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFkAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAqwEcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T07:03:33.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T07:03:33.96Z"
             }
           ]
         }
